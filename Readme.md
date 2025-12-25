@@ -11,9 +11,7 @@
 - **chat.py** — программа для тестирования моделей
 
 ## Необходимые компоненты
-> Команды для установки и последующих манипуляций с программами будут представлены для ОС Windows.
-
-Перед выполнением следующих действий следует установить [CUDA](https://developer.nvidia.com/cuda/toolkit), а также библиотку torch под версию CUDA.
+Перед выполнением нужно установить [CUDA](https://developer.nvidia.com/cuda/toolkit), а также библиотку torch под версию CUDA.
 Пример установки torch для CUDA 13.0:
 ```shell
 pip install --pre torch --index-url https://download.pytorch.org/whl/nightly/cu130
